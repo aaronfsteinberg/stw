@@ -22,7 +22,7 @@ export default function Hero() {
 
               <p className="font-figtree font-black text-24 leading-1-2 tracking-sm uppercase text-olive-lighter
                             expanded:text-32 desktop:text-40">
-                Step Into Your Optimized, Purpose-Driven <TradeMark size="lg" word="Alignment" />{' '}And Scale Your Healing Into A Seven-Figure Empire – Sustainably
+                Step Into Your Optimized, Purpose-Driven <TradeMark size="lg" word="Alignment" />{' '}And Scale Your Healing Into A Seven-Figure Empire
               </p>
             </div>
 
