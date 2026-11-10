@@ -24,16 +24,6 @@ export default function Hero() {
                             expanded:text-32 desktop:text-40">
                 Step Into Your Optimized, Purpose-Driven <TradeMark size="lg" word="Alignment" />{' '}And Scale Your Healing Into A Seven-Figure Empire – Sustainably
               </p>
-
-              <div className="flex flex-col gap-8 tablet:gap-12 expanded:gap-12 desktop:gap-12">
-                <p className="body-copy font-light text-olive-lighter">
-                  We help people actualize the fullest, most resourced expression of their one precious
-                  human life — integrating mind, body, heart, relationships, and your connection to something
-                  greater than yourself into one embodied whole —
-                  and then translate all of that into a category-defining thought-leadership legacy and
-                  personal brand dynasty.
-                </p>
-              </div>
             </div>
 
             <div className="hero-img">
