@@ -30,7 +30,7 @@ export default function Mission() {
               all of who you actually are — everything begins to align. And then you can translate all of
               that into a category-defining thought-leadership legacy and personal brand dynasty.
             </p>
-            <p className="body-copy max-w-none font-bold">
+            <p className="body-copy max-w-none font-bold mt-2">
               We won't stop until we SAVE THE <TradeMark size="md" word="WORLD." />
             </p>
           </div>
