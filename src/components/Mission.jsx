@@ -25,7 +25,7 @@ export default function Mission() {
               We help you actualize the fullest, most resourced expression of your life by guiding you
               to tend to what's deepest and most authentically underneath.
             </p>
-            <p className="body-copy font-light max-w-none">
+            <p className="body-copy font-light max-w-none mt-2">
               When you meet your own pain, regulate your nervous system, and come home to be and become
               all of who you actually are — everything begins to align. And then you can translate all of
               that into a category-defining thought-leadership legacy and personal brand dynasty.
