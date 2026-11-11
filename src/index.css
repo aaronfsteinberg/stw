@@ -276,16 +276,17 @@
 }
 
 /* Hero tagline — expanded/desktop only. Four fixed lines, broken at the phrases, with the type sized so the
-   longest line ("Purpose-Driven Alignment") just about fills the column beside the photo (100cqw = that
-   column, via container-type on it). Its ©TM© may hang up to ~21px into the 56px gap before the photo.
-   Phone and tablet keep 24px and wrap freely.
-   expanded: about 23px at 900px wide, up to 40px · desktop: about 34px at 1200px wide, up to 48px at 1440px+ */
+   text of the longest line ("Purpose-Driven Alignment" ≈ 15.92em) fills the column beside the photo
+   (100cqw = that column, via container-type on it). That line's ©TM© hangs past the column: across the
+   56px gap and, on the widest screens, about 31px into the photo's dark left edge (still about 35px short
+   of the figure), so the tagline is stacked above the photo. Phone and tablet keep 24px and wrap freely.
+   expanded: about 26px at 900px wide, up to 40px · desktop: about 37px at 1200px wide, up to 52px at 1440px+ */
 @media (min-width: 900px) {
   .hero-tagline-line { display: block; white-space: nowrap; }
-  .hero-tagline { font-size: min(40px, calc((100cqw - 41px) / 16.15)); }
+  .hero-tagline { position: relative; z-index: 1; font-size: min(40px, calc(100cqw / 15.95)); }
 }
 @media (min-width: 1200px) {
-  .hero-tagline { font-size: min(54px, calc((100cqw - 50px) / 16.15)); }
+  .hero-tagline { font-size: min(54px, calc(100cqw / 15.95)); }
 }
 
 /* Empire Builder title — expanded/desktop only: the name on line one, the rest as a smaller line under it */

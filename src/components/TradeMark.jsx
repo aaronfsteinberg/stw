@@ -18,12 +18,13 @@ const SIZES = {
   sm: 'font-normal text-[7px]',
 }
 
+// className     — extra classes for the word and its ©TM© together (e.g. a color for both); needs `word`
 // markClassName — extra classes for the ©TM© itself (e.g. a color)
-export default function TradeMark({ size = 'lg', word, gap = false, tracking = '', markClassName = '' }) {
+export default function TradeMark({ size = 'lg', word, gap = false, tracking = '', className = '', markClassName = '' }) {
   const mark = <span className={`inline-block leading-none align-[1em] ${SIZES[size]}${tracking ? ` ${tracking}` : ''}${markClassName ? ` ${markClassName}` : ''}`}>©TM©</span>
 
   if (word) {
-    return <span className="whitespace-nowrap">{word}{gap ? <span className="ml-[2px]">{mark}</span> : mark}</span>
+    return <span className={`whitespace-nowrap${className ? ` ${className}` : ''}`}>{word}{gap ? <span className="ml-[2px]">{mark}</span> : mark}</span>
   }
   return mark
 }

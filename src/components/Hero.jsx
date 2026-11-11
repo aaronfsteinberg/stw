@@ -14,7 +14,7 @@ export default function Hero() {
 
           <h1 className="reveal-heading hero-slogan">
             <span className="block">MAXIMIZE Your Life.</span>{' '}
-            <span className="block">MONETIZE Your <TradeMark size="xl" word="Trauma." markClassName="text-brand-yellow" /></span>
+            <span className="block">MONETIZE Your <TradeMark size="xl" word="Trauma." className="text-brand-yellow" /></span>
           </h1>
 
           <div className="reveal-body flex flex-col gap-6 items-start tablet:flex-row tablet:items-center tablet:gap-8 expanded:flex-row expanded:items-center expanded:gap-14 desktop:flex-row desktop:items-center desktop:gap-14">
@@ -22,10 +22,10 @@ export default function Hero() {
             <div className="flex flex-col gap-4 flex-1 min-w-0 tablet:gap-4 expanded:gap-4 desktop:gap-4 expanded:[container-type:inline-size] desktop:[container-type:inline-size]">
 
               {/* 24px and free-flowing up to tablet. From 900px wide each span is its own line and
-                  .hero-tagline (index.css) sizes the type so the longest line fills the column beside the photo */}
+                  .hero-tagline (index.css) sizes the type so the longest line's text fills the column beside the photo */}
               <p className="hero-tagline font-figtree font-black text-24 leading-1-2 tracking-sm uppercase text-olive-lighter">
                 <span className="hero-tagline-line">Step Into Your Optimized,</span>{' '}
-                <span className="hero-tagline-line">Purpose-Driven <TradeMark size="tagline" word="Alignment" markClassName="text-brand-yellow" /></span>{' '}
+                <span className="hero-tagline-line">Purpose-Driven <TradeMark size="tagline" word="Alignment" className="text-brand-yellow" /></span>{' '}
                 <span className="hero-tagline-line">And Scale Your Healing</span>{' '}
                 <span className="hero-tagline-line">Into A Seven-Figure Empire</span>
               </p>
