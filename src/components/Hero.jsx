@@ -25,7 +25,7 @@ export default function Hero() {
                   .hero-tagline (index.css) sizes the type so the longest line fills the column beside the photo */}
               <p className="hero-tagline font-figtree font-black text-24 leading-1-2 tracking-sm uppercase text-olive-lighter">
                 <span className="hero-tagline-line">Step Into Your Optimized,</span>{' '}
-                <span className="hero-tagline-line">Purpose-Driven <TradeMark size="lg" word="Alignment" markClassName="text-brand-yellow" /></span>{' '}
+                <span className="hero-tagline-line">Purpose-Driven <TradeMark size="tagline" word="Alignment" markClassName="text-brand-yellow" /></span>{' '}
                 <span className="hero-tagline-line">And Scale Your Healing</span>{' '}
                 <span className="hero-tagline-line">Into A Seven-Figure Empire</span>
               </p>
