@@ -375,10 +375,31 @@
 
 .about-bio-text p + p { margin-top: 12px; }
 
-.blockquote-hanging {
-  hanging-punctuation: first;  /* Safari — handles it natively */
-  padding-left: 0.45em;        /* scales with font size */
-  text-indent: -0.45em;        /* pulls only the " to the left */
+/* Testimonial — one big opening quote mark above a heavy quote.
+   (Replaces .blockquote-hanging, whose hanging-punctuation + negative text-indent both applied
+   in Safari and pushed the first line left of the rest.) */
+.testimonial-mark {           /* inline SVG, drawn in Testimonial.jsx */
+  display: block;
+  width: 84px;
+  height: auto;
+  margin-bottom: 20px;
+  fill: currentColor;
+}
+.testimonial-quote {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+@media (min-width: 600px) {
+  .testimonial-mark  { width: 104px; margin-bottom: 24px; }
+  .testimonial-quote { font-size: 30px; }
+}
+@media (min-width: 900px) {
+  .testimonial-mark  { width: 128px; margin-bottom: 28px; }
+  .testimonial-quote { font-size: 40px; }
 }
 
 /* Accessibility — respect reduced-motion preference */
