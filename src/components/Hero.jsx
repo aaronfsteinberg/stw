@@ -16,7 +16,7 @@ export default function Hero() {
             <span className="block">MONETIZE Your <TradeMark size="lg" word="Trauma." /></span>
           </h1>
 
-          <div className="reveal-body flex flex-col gap-8 items-start tablet:flex-row tablet:gap-8 expanded:flex-row expanded:gap-14 desktop:flex-row desktop:gap-14">
+          <div className="reveal-body flex flex-col gap-8 items-start tablet:flex-row tablet:items-center tablet:gap-8 expanded:flex-row expanded:items-center expanded:gap-14 desktop:flex-row desktop:items-center desktop:gap-14">
 
             <div className="flex flex-col gap-4 flex-1 min-w-0 tablet:gap-4 expanded:gap-4 desktop:gap-4">
 
