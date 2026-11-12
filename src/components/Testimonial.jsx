@@ -3,7 +3,7 @@ import { useReveal } from '../hooks/useReveal'
 
 const BASE = import.meta.env.BASE_URL
 
-// Carousel order. `photo` is optional; without one the name and title stand alone. Portraits are 360px squares.
+// Carousel order. `photo` is optional; without one the name and title stand alone. Portraits are 480px squares.
 const TESTIMONIALS = [
   {
     quote: <>Seven Minute Wellness gave me back seven minutes a day. Not freed up. <em>Gave back.</em> My days are 24 hours and 7 minutes now, and my watch can't keep up.</>,
@@ -134,7 +134,7 @@ export default function Testimonial() {
                     </blockquote>
                     <figcaption className="flex items-center gap-4">
                       {t.photo && (
-                        <img src={t.photo} alt={t.name} className="w-[88px] h-[88px] tablet:w-[120px] tablet:h-[120px] expanded:w-[120px] expanded:h-[120px] desktop:w-[120px] desktop:h-[120px] rounded-full object-cover shrink-0" />
+                        <img src={t.photo} alt={t.name} className="w-[112px] h-[112px] tablet:w-[160px] tablet:h-[160px] expanded:w-[160px] expanded:h-[160px] desktop:w-[160px] desktop:h-[160px] rounded-full object-cover shrink-0" />
                       )}
                       <div className="flex flex-col">
                         <p className="font-figtree font-bold text-14 leading-1-5 tracking-xs text-cobalt-dark
