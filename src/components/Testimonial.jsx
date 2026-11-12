@@ -36,7 +36,7 @@ const TESTIMONIALS = [
     photo: `${BASE}testimonial-priya-s.jpg`,
   },
   {
-    quote: <>My wife and I hadn't spoken in eleven years. Now we finish each other's sentences. Last week she finished one I won't start until 2031.</>,
+    quote: <>ROB: We hadn't spoken in eleven years. TINA: Now we finish each other's sentences. ROB: Last week she finished one⁠— TINA: —⁠he won't start until 2031.</>,
     name: 'Rob & Tina M.',
     title: 'Verified Couple',
     photo: `${BASE}testimonial-rob-tina-m.jpg`,
@@ -70,6 +70,11 @@ const TESTIMONIALS = [
     name: 'Tara V.',
     title: 'Lineage Holder (Tier 4)',
     photo: `${BASE}testimonial-tara-v.jpg`,
+  },
+  {
+    quote: <>We used to fight about the dishwasher every night. Now the dishwasher does itself. We don't know how, and we don't ask.</>,
+    name: 'Dev & Hannah R.',
+    title: 'Verified Couple, RHWP Graduates',
   },
 ]
 
